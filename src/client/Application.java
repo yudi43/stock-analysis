@@ -7,7 +7,6 @@ import aggregators.MinAggregator;
 public class Application {
 
 	public static void main(String[] args) {
-		
 		Aggregator values = new MeanAggregator();
 		values.add(100.93);
 		values.add(101.32);
